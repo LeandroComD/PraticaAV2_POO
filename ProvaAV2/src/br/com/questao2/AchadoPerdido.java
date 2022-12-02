@@ -40,7 +40,7 @@ public class AchadoPerdido implements PublicacaoInterface {
 
     @Override
     public String visualizarDetalhes() {
-        return "\n" + titulo + "\n" + descricao + "\n" + tipo + "\n" +status + "\n" +local_achado + "\n" +data_hora + "\n"+ foto;
+        return "\nTitulo: " + titulo + "\nDescricao: " + descricao + "\nTipo: " + tipo + "\nStatus: " +status + "\nLocal onde foi achado:" +local_achado + "\nData e hora do achado: " +data_hora + "\nFoto: "+ foto;
     }
 
 
